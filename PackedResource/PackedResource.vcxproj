@@ -97,7 +97,7 @@
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(targetpath) $(SolutionDir)InjectDetectDemo\dll.bin</Command>
+      <Command>copy "$(targetpath)" "$(SolutionDir)InjectDetectDemo\dll.bin"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -115,7 +115,7 @@
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(targetpath) $(SolutionDir)InjectDetectDemo\dll.bin</Command>
+      <Command>copy "$(targetpath)" "$(SolutionDir)InjectDetectDemo\dll.bin"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
