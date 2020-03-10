@@ -4,7 +4,7 @@ This PoC was built using visual studio 2019.
 It gives a demo of internal thread creation of memory injected code that will not trigger a detection using Get-InjectedThread.
 
 ## Build instructions
-git clone -r https://github.com/trustedsec/inProc_Evade_Get-InjectedThread.git 
+git clone -r https://github.com/trustedsec/inProc_Evade_Get-InjectedThread.git   
 open .sln file using visual studio 2019  
 build the solution
 
